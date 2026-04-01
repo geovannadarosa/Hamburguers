@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábrica - 543 - Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body-contato">
+    <header class="menu">
+        <nav class="nav-bar">
+            <a href="../index.html" class="area-logo">
+                <img src="../img/logo.png" alt="" id="logo">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../pages/hamburguer.html" class="nav-link">HAMBURGUERS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../pages/cadastro.html" class="nav-link">CADASTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../pages/contato.html" class="nav-link">CONTATO</a>
+                </li>
+            </ul>
+            <a href="../pages/login.html" class="area-login">
+                <button class="login">LOGAR</button>
+            </a>
+
+        </nav>
+    </header>
+    <div class="box-contato">
+        <form action="">
+            <fieldset class="contato-fieldset">
+                <legend class="contato-legenda">FORMULÁRIO DE CONTATO</legend>
+                <div class="inputbox-contato">
+                    <label for="telefone" class="labelInput-contato">telefone</label>
+                    <input type="number" name="telefone" id="telefone" class="inputUser-contato" required>
+                </div>
+                <div class="inputbox-contato">
+                    <label for="Nome" class="labelInput-contato">nome</label>
+                    <input type="text" name="Nome" id="Nome" class="inputUser-contato" required>
+                </div>
+                <div class="inputbox-contato">
+                    <label for="email" class="labelInput-contato">email</label>
+                    <input type="email" name="email" id="email" class="inputUser-contato" required>
+                </div>
+                <div class="inputbox-contato">
+                    <label for="mensagem" class="labelInput-contato">mensagem</label>
+                    <textarea type="text" name="mensagem" id="mensagem" class="inputUser-contato-mensagem" required></textarea>
+                </div>
+                <input type="submit" value="enviar" name="submit" id="botao" class="botao-enviar-contato">
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
