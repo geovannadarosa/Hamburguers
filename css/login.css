@@ -1,0 +1,89 @@
+.tela-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(87, 17, 0);
+    display: flex;
+}
+.container-login{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.area-foto-login{
+    display: flex;
+    align-content: center   ;
+}
+.area-foto-login img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.area-login{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card-login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgba(255, 60, 0, 0.26);
+    border-radius: 15px;
+}
+.tittle-login{
+    font-size: 2rem;
+    color: orangered;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.input-login{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+.input-login label{
+    color: rgb(37, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    height: 30px;
+}
+.input-usuario{
+    outline: none;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+.input-usuario::placeholder{
+    padding: 10px;
+    color: rgba(128, 128, 128, 0.63);
+}
+.input-usuario:focus{
+    padding-left: 10px;
+}
+.itens-senha{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: -20px ;    
+}
+.btn-login{
+    width: 50%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;    
+    background-color: darkred;
+    color: white;
+}
+
+
