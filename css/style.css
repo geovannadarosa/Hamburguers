@@ -8,6 +8,8 @@
 
 @import url('hamburguer.css');
 
+@import url('login.css');
+
 :root{
     --cor-menu: rgb(111, 0, 0);
     --cor-letra-menu: rgb(255, 255, 255);
